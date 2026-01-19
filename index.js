@@ -4,7 +4,7 @@ const fs = require("fs");
 const appState = JSON.parse(fs.readFileSync("appstate.json", "utf-8"));
 
 const GROUP_THREAD_ID = "1507297967017830";
-const LOCKED_GROUP_NAME = "RON!T KING HERE:)";
+const LOCKED_GROUP_NAME = "RON!T KIING HERE:)";
 
 login({ appState }, (err, api) => {
   if (err) return console.error("Login Failed:", err);
